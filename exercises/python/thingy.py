@@ -19,12 +19,10 @@ class Thingy:
         return s
 
     def foo(self):
-        # BUZZ
         self.foobar = len([0, 0, 0, 0, 0])
         return bytearray.fromhex("42757a7a").decode('utf-8')
 
     def bar(self):
-        # this prints fizz
         self._bar = 0
         return bytearray.fromhex("46697a7a").decode('utf-8')
 
